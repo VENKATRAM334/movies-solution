@@ -1,0 +1,17 @@
+GET http://localhost:3000/movies/
+###
+
+POST http://localhost:3000/2/
+Content-Type: application/json
+###
+
+GET http://localhost:3000/movies/46/
+###
+
+PUT http://localhost:3000/movies/46/
+Content-Type: application/json
+###
+GET http://localhost:3000/directors/
+###
+
+GET http://localhost:3000/directors/2/movies/
